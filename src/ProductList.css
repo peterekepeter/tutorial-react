@@ -1,0 +1,19 @@
+
+div.product-list-component {
+    padding: 1em;
+    margin: 1em;
+}
+
+div.product-list{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    text-align:left
+}
+
+div.product-list>h2{
+    margin:0;
+    font-weight:normal;
+    margin-bottom:1em;
+    margin-top:1em;   
+}
